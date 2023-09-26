@@ -170,9 +170,9 @@ for n in text:
         text_string.append(77)
     if n == "?":
         text_string.append(78)
-    if n == "@":
+    if n == ",":
         text_string.append(79)
-    if n == "#":
+    if n == ".":
         text_string.append(80)
     if n == "%":
         text_string.append(81)
@@ -545,9 +545,9 @@ for i in key:
 		i = 77
 	if i == "?":
 		i = 78
-	if i == "@":
+	if i == ",":
 		i = 79
-	if i == "#":
+	if i == ".":
 		i = 80
 	if i == "%":
 		i = 81
@@ -742,9 +742,9 @@ for i in key:
 	if value == 78:
 		print("?", end="")
 	if value == 79:
-		print("@", end="")
+		print(",", end="")
 	if value == 80:
-		print("#", end="")
+		print(".", end="")
 	if value == 81:
 		print("%", end="")
 	if value == 82:
