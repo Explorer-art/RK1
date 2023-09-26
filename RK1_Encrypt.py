@@ -580,7 +580,7 @@ for n in text:
 	if value == 92:
 		print("=", end="")
 	if value == 93:
-		print(" ", end="")
+		print("`", end="")
 	if value == 94:
 		print("A", end="")
 	if value == 95:

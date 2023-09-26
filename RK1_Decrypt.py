@@ -198,7 +198,7 @@ for n in text:
         text_string.append(91)
     if n == "=":
         text_string.append(92)
-    if n == " ":
+    if n == "`":
         text_string.append(93)
     if n == "A":
         text_string.append(94)
